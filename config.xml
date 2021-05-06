@@ -1,0 +1,9 @@
+<config>
+  <user value="fne01qkr5bye"/> <!-- Enter your user name here -->
+  <team value="234980"/>         <!-- Your team number -->
+  <passkey value="f1ca7bc9170c9d35f1ca7bc9170c9d35"/>       <!-- 32 hexadecimal$
+
+  <power value="full"/>
+  <gpu value="true"/>      <!-- If true, attempt to autoconfigure GPUs -->
+  <fold-anon value="false"/>
+</config>
