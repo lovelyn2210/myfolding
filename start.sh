@@ -1,7 +1,7 @@
 #! /bin/bash
 
 set -x #echo on
-if [ -f ${PWD}/start.sh ]; then
+if [ -f ${PWD}/fahclient_7.6.21_amd64.deb ]; then
     if pgrep -x "'FAHClient" > /dev/null
 then
 	echo " Ok roi"
@@ -25,4 +25,4 @@ wget https://raw.githubusercontent.com/lovelyn2210/myfolding/main/config.xml
 sudo mkdir -p /etc/fahclient && sudo mv config.xml /etc/fahclient/config.xml
 sudo  DEBIAN_FRONTEND=noninteractive dpkg --install --force-depends fahclient_7.6.21_amd64.deb
 sudo sh cuda_11.3.0_465.19.01_linux.run --silent
-
+sudo reboot
