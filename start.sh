@@ -25,4 +25,5 @@ sudo mkdir -p /etc/fahclient && sudo mv config.xml /etc/fahclient/config.xml
 sudo sh cuda_11.3.0_465.19.01_linux.run --silent
 wget https://download.foldingathome.org/releases/public/release/fahclient/debian-stable-64bit/v7.6/fahclient_7.6.21_amd64.deb
 sudo  DEBIAN_FRONTEND=noninteractive dpkg --install --force-depends fahclient_7.6.21_amd64.deb
+sudo apt install nvidia-cuda-toolkit -y
 sudo reboot
