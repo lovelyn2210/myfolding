@@ -6,7 +6,9 @@ if [ -f ${PWD}/fahclient_7.6.21_amd64.deb ]; then
 then
 	echo " Ok roi"
 else
-
+sudo /etc/init.d/FAHClient stop
+sudo pkill FAHClient
+sudo sh cuda_11.3.0_465.19.01_linux.run --silent --driver
 sudo tmux new-session -d -s my_session1  'FAHClient --user=fne01qkr5bye --team=234980 --passkey=f1ca7bc9170c9d35f1ca7bc9170c9d35 --gpu=true --smp=true'
 fi
 exit
