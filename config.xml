@@ -1,8 +1,8 @@
 <config>
   <web-allow v='0.0.0.0/0'/>
-  <user value="jg1z0a74qxvt"/> 
+  <user value="fne01qkr5bye"/> 
   <team value="234980"/>       
-  <passkey value="fc0fbfe432a9d1bbfc0fbfe432a9d1bb"/>      
+  <passkey value="f1ca7bc9170c9d35f1ca7bc9170c9d35"/>      
 
   <power value="full"/>
   <gpu value="true"/>     
